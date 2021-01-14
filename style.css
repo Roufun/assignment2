@@ -1,0 +1,141 @@
+/* orange-d FA804C, */
+
+.bg-navbar {
+    background-color: #FA804C;
+}
+.social-media a {
+    width: 10px;
+}
+/* Default Css */
+.theme-color {
+    color: #A4BC46;
+}
+.theme-color-2 {
+    color: #FABD4A;
+}
+.theme-bg-color {
+    background-color: #FEFAF0;
+}
+img {
+    max-width: 100%;
+}
+/* Header Menu */
+.header-menu ul {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+.header-menu ul li {
+    display: inline-block;
+    margin: 0 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.header-menu ul li a {
+    padding: 30px 0;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+}
+.header-fixed {
+    position: absolute;
+    width: 100%;
+}
+
+/* Header Banner Area */
+.carousel-item {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.header-banner-item-info {
+    padding-right: 120px;
+    padding-top: 200px;
+}
+.header-banner-item-info h1 {
+    font-size: 60px;
+    line-height: 1.1;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.header-banner-item-img {
+    padding-right: 140px;
+    padding-top: 100px;
+}
+
+/* Product Area */
+.product-item {
+    border: 0;
+    border-radius: 1.25rem!important;
+}
+.product-img {
+    padding: 30px;
+    background-color: #F0F0F0;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.product-item .card-title {
+    font-weight: 700;
+}
+.product-card-footer {
+    background-color: white;
+    border: 0;
+    border-radius: 1.25rem!important;
+    padding-bottom: 30px;
+}
+.product-price {
+    color: #FABD4A;
+    font-weight: 700;
+}
+
+/* Feature Area */
+.feature-item {
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    margin-bottom: 30px;
+}
+.feature-icon {
+    float: left;
+    margin-right: 25px;
+}
+.feature-info {
+    overflow: hidden;
+}
+.feature-img {
+    padding-left: 50px;
+    text-align: right;
+}
+.feature-img img {
+    max-width: 90%;
+}
+
+/* Footer Area */
+.footer-area {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.footer-title {
+    margin-bottom: 20px;
+}
+.footer-menu ul {
+    padding: 0;
+    margin: 0;
+}
+.footer-menu ul li {
+    list-style: none;
+    margin-top: 10px;
+}
+.footer-menu ul li a {
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+.social-media a {
+    width: 35px;
+    margin: 10px;
+    display: inline-block;
+}
+
