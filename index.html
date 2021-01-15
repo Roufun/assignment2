@@ -4,114 +4,121 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Fashion (Assig.2)</title>
+    <script src="https://kit.fontawesome.com/70e11e2255.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!-- Header area start -->
-    <header class="header-area header-fixed">
+    <!-- Header Navbar area start -->
+    <header class="header-area header-fixed theme-bg-color">
+      <nav class="navbar navbar-expand-lg navbar-light theme-bg-color">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-4 align-self-center">
-                    <div class="site-logo">
-                        <a href="index.html"><img src="img/logo.png" alt="Logo"></a>
-                    </div>
-                </div>
-                <div class="col-lg-8">
-                    <div class="header-menu text-right">
-                        <nav>
-                            <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Product</a></li>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </div>
-      </header>
-    <!-- Header area end -->
-
-    <!-- Header banner area start -->
-    <div class="header-banner-area theme-bg-color">
-      <div class="container">
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
-            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
-            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="header-banner-item-info">
-                    <h1><span class="theme-color-2">Be The Penguins</span> <br> Of Winter</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, <br> adipisicing elit dolor.</p>
-                    <button class="btn btn-warning">BUY NOW</button>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="header-banner-item-img">
-                    <img src="img/banner-or-1.png" class="d-block w-100" alt="...">
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="row d-flex align-items-center">
-                <div class="col-md-6">
-                  <div class="header-banner-item-info">
-                    <h1><span class="theme-color-2">Be The Penguins</span> <br> Of Winter</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, <br> adipisicing elit dolor.</p>
-                    <button class="btn btn-warning">BUY NOW</button>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="header-banner-item-img">
-                    <img src="img/banner-or-1.png" class="d-block w-100" alt="...">
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="row d-flex align-items-center">
-                <div class="col-md-6">
-                  <div class="header-banner-item-info">
-                    <h1><span class="theme-color-2">Be The Penguins</span> <br> Of Winter</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, <br> adipisicing elit dolor.</p>
-                    <button class="btn btn-warning">BUY NOW</button>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="header-banner-item-img">
-                    <img src="img/banner-or-1.png" class="d-block w-100" alt="...">
-                  </div>
-                </div>
-              </div>
-            </div>
+          <a class="navbar-brand" href="#">
+            <img src="img/logo.png" alt="#">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-md-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
+              </li>
+            </ul>
           </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </a>
+        </div>
+      </nav>
+    </header>
+    <!-- Header Navbar area end -->
+
+    <!-- --------------------------Header banner area start---------------------------------------- -->
+      <div class="header-banner-area theme-bg-color">
+        <div class="container">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="header-banner-item-info">
+                      <h1><span class="theme-color-2">Be The Penguins</span> <br> Of <span class="banner-span">Winter</span></h1>
+                      <p>Fullfil your fashion desire at our store <br> Everything you need in one place.</p>
+                      <a class="link-button" target="_blank" href="#"><img src="img/shopping-cart.png" alt=""> BUY NOW</a>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="header-banner-item-img">
+                      <img src="img/banner-img-1.png" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="header-banner-item-info">
+                      <h1><span class="theme-color-2">Be The Penguins</span> <br> Of <span class="banner-span">Winter</span></h1>
+                      <p>Fullfil your fashion desire at our store <br> Everything you need in one place.</p>
+                      <a class="link-button" target="_blank" href="#"><img src="img/shopping-cart.png" alt="">BUY NOW</a>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="header-banner-item-img">
+                      <img src="img/banner-img-2.png" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="header-banner-item-info">
+                      <h1><span class="theme-color-2">Be The Penguins</span> <br> Of <span class="banner-span">Winter</span></h1>
+                      <p>Fullfil your fashion desire at our store <br> Everything you need in one place.</p>
+                      <a class="link-button" target="_blank" href="#"><img src="img/shopping-cart.png" alt="">BUY NOW</a>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="header-banner-item-img">
+                      <img src="img/banner-img-3.png" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </a>
+          </div>
         </div>
       </div>
     </div>
     <!-- Header banner area end -->
 
-    <!-- Product area start -->
     <main class="container">
-        <!-- -----------------Woman Section-------------------- -->
-        <section class="mt-5">
-            <h2>WOMAN JACKET</h2>
+    <!-- ----------------------Woman Product Section Start------------------------------------------- -->
+        <section class="mt-100">
+          <div class="heading-line">
+            <h2><span class="section-span">WOMAN</span> JACKET</h2>
+          </div>
             <div class="row row-cols-1 row-cols-md-3 g-4 mt-2">
                 <div class="col">
                   <div class="card product-item h-100 shadow ">
@@ -119,13 +126,13 @@
                       <img src="img/woman-jacket-1.png" class="card-img-top" alt="...">
                     </div>
                     <div class="card-body">
-                      <h4 class="card-title">Yellow Jacket</h4>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <h4 class="card-title">Epsion Yellow Jacket</h4>
+                      <p class="card-text">Epsion Women's Hooded Thickened Long Down Jacket Winter Down Parka Puffer Jacketr, 100% Polyester, breathable, windproof.</p>
                     </div>
                     <div class="card-footer product-card-footer">
                       <div class="d-flex justify-content-between">
-                          <h2 class="product-price">$100</h2>
-                          <button class="btn btn-warning">BUY NOW</button>
+                          <h2 class="product-price">$120</h2>
+                          <a class="link-button product-btn" target="_blank" href="#"><img src="img/shopping-cart.png" alt="">BUY NOW</a>
                       </div>
                     </div>
                   </div>
@@ -136,13 +143,13 @@
                       <img src="img/woman-jacket-2.png" class="card-img-top" alt="...">
                     </div>
                     <div class="card-body">
-                      <h4 class="card-title">Red Jacket</h4>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <h4 class="card-title">Vetinee Red Jacket</h4>
+                      <p class="card-text">Vetinee Women Casual Faux Fur Lapel Zip Pockets Quilted Parka Jacket Puffer Coat.Winter quilted jacket for women with lapel V-neck.</p>
                     </div>
                     <div class="card-footer product-card-footer">
                       <div class="d-flex justify-content-between">
-                        <h2 class="product-price">$100</h2>
-                          <button class="btn btn-warning">BUY NOW</button>
+                        <h2 class="product-price">$160</h2>
+                        <a class="link-button product-btn" target="_blank" href="#"><img src="img/shopping-cart.png" alt="">BUY NOW</a>
                       </div>
                     </div>
                   </div>
@@ -153,22 +160,26 @@
                       <img src="img/woman-jacket-3.png" class="card-img-top" alt="...">
                     </div>
                     <div class="card-body">
-                      <h4 class="card-title">Yellow Hoody</h4>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <h4 class="card-title">Women's Yellow Hoody</h4>
+                      <p class="card-text">Women's Lightweight Long-Sleeve Full-Zip Water-Resistant Packable Hooded Puffer Jacket. Casual Jacket with zipper.</p>
                     </div>
                     <div class="card-footer product-card-footer">
                       <div class="d-flex justify-content-between">
-                        <h2 class="product-price">$100</h2>
-                          <button class="btn btn-warning">BUY NOW</button>
+                        <h2 class="product-price">$230</h2>
+                        <a class="link-button product-btn" target="_blank" href="#"><img src="img/shopping-cart.png" alt="">BUY NOW</a>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
         </section>
-        <!-- -----------------Man Section-------------------- -->
-        <section class="mt-5">
-          <h2>MAN JACKET</h2>
+        <!-- Woman Product Section End -->
+
+        <!-- -------------------------Man Product Section Start------------------------------- -->
+        <section class="mt-100">
+          <div class="heading-line">
+            <h2><span class="section-span">MAN</span> JACKET</h2>
+          </div>
           <div class="row row-cols-1 row-cols-md-3 g-4 mt-2">
               <div class="col">
                 <div class="card product-item h-100 shadow ">
@@ -176,13 +187,13 @@
                     <img src="img/man-jacket-1.png" class="card-img-top" alt="...">
                   </div>
                   <div class="card-body">
-                    <h4 class="card-title">Black Jacket</h4>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <h4 class="card-title">Waterproof Black Jacket</h4>
+                    <p class="card-text">Men's Waterproof Ski Jacket Warm Winter Snow Coat Mountain Windbreaker Hooded Raincoat, Snowboarding Jackets, Black Color </p>
                   </div>
                   <div class="card-footer product-card-footer">
                     <div class="d-flex justify-content-between">
-                        <h2 class="product-price">$100</h2>
-                        <button class="btn btn-warning">BUY NOW</button>
+                        <h2 class="product-price">$220</h2>
+                        <a class="link-button product-btn" target="_blank" href="#"><img src="img/shopping-cart.png" alt="">BUY NOW</a>
                     </div>
                   </div>
                 </div>
@@ -193,13 +204,13 @@
                     <img src="img/man-jacket-2.png" class="card-img-top" alt="...">
                   </div>
                   <div class="card-body">
-                    <h4 class="card-title">Yellow Jacket</h4>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <h4 class="card-title">Hooded Yellow Jacket</h4>
+                    <p class="card-text">Men's Lightweight Water-Resistant Packable Puffer Jacket, Warm Winter Snow Coat Mountain Windbreaker Hooded Raincoat</p>
                   </div>
                   <div class="card-footer product-card-footer">
                     <div class="d-flex justify-content-between">
-                      <h2 class="product-price">$100</h2>
-                        <button class="btn btn-warning">BUY NOW</button>
+                      <h2 class="product-price">$180</h2>
+                      <a class="link-button product-btn" target="_blank" href="#"><img src="img/shopping-cart.png" alt="">BUY NOW</a>
                     </div>
                   </div>
                 </div>
@@ -210,21 +221,22 @@
                     <img src="img/man-jacket-3.png" class="card-img-top" alt="...">
                   </div>
                   <div class="card-body">
-                    <h4 class="card-title">Maroon Jacket</h4>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <h4 class="card-title">Maroon Leather Jacket</h4>
+                    <p class="card-text">Men's Mid-weight Puffer Jacket With Removable Hood, Cold-weather style is easy with this versatile water-resistant </p>
                   </div>
                   <div class="card-footer product-card-footer">
                     <div class="d-flex justify-content-between">
-                      <h2 class="product-price">$100</h2>
-                        <button class="btn btn-warning">BUY NOW</button>
+                      <h2 class="product-price">$200</h2>
+                      <a class="link-button product-btn" target="_blank" href="#"><img src="img/shopping-cart.png" alt="">BUY NOW</a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
         </section>
-        <!-- ------------------------Feature Section-------------------------- -->
-        <section class="feature-area mt-5">
+        <!-- Man Product Section End -->
+        <!-- ------------------------------Feature Section Start--------------------------------- -->
+        <section class="feature-area mt-100">
           <div class="contaniner">
             <div class="row">
               <div class="col-lg-4">
@@ -264,47 +276,82 @@
             </div>
           </div>
         </section>
-    </main>
-    <!-- Product area end -->
-
-    <footer class="footer-area theme-bg-color">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4  align-self-center">
-                <div class="footer-logo">
-                  <img src="img/logo.png" alt="#">
-                  <p>All Right Reserved -2021</p> 
-                </div> 
-            </div>
-            <div class="col-md-4">
-              <h4 class="footer-title">Quick Links</h4>
-              <div class="footer-menu">
-                <ul>
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">Product</a></li>
-                  <li><a href="#">Features</a></li>
-                  <li><a href="#">Contact US</a></li>
-                </ul>
+        <!-- Feature Section end -->
+        <!-- -----------------------Customer Review Section Start--------------------------- -->
+        <section class="mt-100">
+          <div class="heading-line">
+            <h2><span class="section-span">Customer's</span> Reviews</h2>
+          </div>
+          <div class="row row-cols-1 row-cols-md-3 g-4 mt-2">
+              <div class="col">
+                <div class="card review-item h-100 shadow ">
+                  <div class="review-img">
+                    <img src="img/customer-1.jpg" class="card-img-top" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <h4 class="card-title">"Got very fast delivery"</h4>
+                    <i class="fas fa-star marked"></i>
+                    <i class="fas fa-star marked"></i>
+                    <i class="fas fa-star marked"></i>
+                    <i class="fas fa-star marked"></i>
+                    <i class="fas fa-star unmarked"></i>
+                    <p class="card-text">Adam Smith</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card review-item h-100 shadow ">
+                  <div class="review-img">
+                    <img src="img/customer-2.jpg" class="card-img-top" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <h4 class="card-title">"The packaging was good"</h4>
+                    <i class="fas fa-star marked"></i>
+                    <i class="fas fa-star marked"></i>
+                    <i class="fas fa-star marked"></i>
+                    <i class="fas fa-star unmarked"></i>
+                    <i class="fas fa-star unmarked"></i>
+                    <p class="card-text">Willium Cambel</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card review-item h-100 shadow ">
+                  <div class="review-img">
+                    <img src="img/customer-3.jpg" class="card-img-top" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <h4 class="card-title">"Exceptional product collection"</h4>
+                    <i class="fas fa-star marked"></i>
+                    <i class="fas fa-star marked"></i>
+                    <i class="fas fa-star marked"></i>
+                    <i class="fas fa-star marked"></i>
+                    <i class="fas fa-star marked"></i>
+                    <p class="card-text">Jacob Garner</p>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="col-md-4  align-self-center">
-              <div class="social-media">
-                <a href="#"><img src="img/dribble.png" alt="#"></a>
-                <a href="#"><img src="img/instagram.png" alt="#"></a>
-                <a href="#"><img src="img/behance.png" alt="#"></a>
-              </div> 
-            </div>
-        </div>
-        </div>
-    </footer>
+        </section>
+    </main>
+    <!-- Customer Review Section End -->
     
 
 
-
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script> 
+    <!-- -----------------------------------Footer--------------------------------------------- -->
+    <footer class="footer-area theme-bg-color mt-100">
+      <div class="container">
+          <div class="row">
+            <div class="col-md-12  d-flex justify-content-center">
+              <div class="footer-logo">
+                <img src="img/logo.png" alt="#">
+                <p>All Right Reserved - 2021</p> 
+              </div> 
+          </div> 
+          <div>
+      <div>   
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 </html>
